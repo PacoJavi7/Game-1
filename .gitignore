@@ -1,3 +1,19 @@
+public class File{
+  private String name;
+  private String content;
+  
+  public File(String n,String c){
+  name = n;
+  content = c;
+  }
+  public getName(){
+    return name;
+    }
+  public get content(){
+    return content;
+    }
+}
+
 # Compiled class file
 *.class
 
